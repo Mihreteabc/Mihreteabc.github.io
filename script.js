@@ -68,7 +68,7 @@ if(age < 18 || age > 55){
     userForm.reset()
    
 }
- function addRow(){
+ const addRow = () =>{
     event.preventDefault();
 const FullName = document.getElementById('name').value
 const email = document.getElementById('email').value
